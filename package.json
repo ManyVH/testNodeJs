@@ -1,0 +1,22 @@
+{
+  "name": "testnodejs",
+  "version": "1.0.0",
+  "description": "Api para test de nodejs",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "MySQL"
+  ],
+  "author": "José Manuel Varela Hernández",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.3",
+    "sequelize": "^6.37.3"
+  },
+  "type": "module"
+}
